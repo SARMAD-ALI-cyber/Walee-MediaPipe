@@ -17,7 +17,7 @@ options = FaceDetectorOptions(
     running_mode=VisionRunningMode.VIDEO,
     min_detection_confidence=0.6)
 
-cap = cv2.VideoCapture("F:\\Mediapipe_dataset\\orignalDataset\\Videos\\FullLengthVideos\\orignal1_output_video.avi")
+cap = cv2.VideoCapture("./orignalDataset/Videos/FullLengthVideos/orignal1_output_video.avi")
 fps = cap.get(cv2.CAP_PROP_FPS)
 
 with FaceDetector.create_from_options(options) as detector:
