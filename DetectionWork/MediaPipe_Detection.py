@@ -3,7 +3,7 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 import cv2
 
-model_path = 'F:\\Mediapipe_dataset\\DetectionWork\\blaze_face_short_range.tflite'
+model_path = './DetectionWork/blaze_face_short_range.tflite'
 
 mp_drawing = mp.solutions.drawing_utils
 BaseOptions = mp.tasks.BaseOptions
